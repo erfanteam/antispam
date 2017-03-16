@@ -309,7 +309,7 @@ end
 
 
 --------------------------------
-if matches[1] == "fun" then
+if matches[1] == "helpfun" then
 local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
