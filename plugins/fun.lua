@@ -355,8 +355,7 @@ _Convert text to photo_
 _Get weather_
 
 💢_You can use_ *[!/#]* _at the beginning of commands._
-
-By @O_o_ERFAN_o_O]]
+By [erfan](https://telegram.me/o_o_erfan_o_o)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 else
 
@@ -402,7 +401,7 @@ _تبدیل استیکر‌به عکس_
 _دریافت اب وهوا_
 
 *شما میتوانید از [!/#] در اول دستورات برای اجرای آنها بهره بگیرید*💢
- توسط: @O_o_ERFAN_o_O]]
+ توسط: [erfan](https://telegram.me/o_o_erfan_o_o)]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 end
 
