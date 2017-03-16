@@ -309,101 +309,100 @@ end
 
 
 --------------------------------
-if matches[1] == "helpfun" then
+if matches[1] == "fun" then
 local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun = [[
-_Beyond Reborn Fun Help Commands:_
+_🔰Fun Commands help:_
 
-*!time*
+🕑*!time*
 _Get time in a sticker_
 
-*!short* `[link]`
+🌐*!short* `[link]`
 _Make short url_
 
-*!voice* `[text]`
+📢*!voice* `[text]`
 _Convert text to voice_
 
-*!tr* `[lang] [word]`
+🔀*!tr* `[lang] [word]`
 _Translates FA to EN and EN to FA_
-_Example:_
+🔹_Example:_
 *!tr fa hi*
 
-*!sticker* `[word]`
+🗼*!sticker* `[word]`
 _Convert text to sticker_
 
-*!photo* `[word]`
+🌄*!photo* `[word]`
 _Convert text to photo_
 
-*!azan* `[city]`
+🕌*!azan* `[city]`
 _Get Azan time for your city_
 
-*!calc* `[number]`
+🔢*!calc* `[number]`
 Calculator
 
-*!praytime* `[city]`
+🕋*!praytime* `[city]`
 _Get Patent (Pray Time)_
 
-*!tosticker* `[reply]`
+🔄*!tosticker* `[reply]`
 _Convert photo to sticker_
 
-*!tophoto* `[reply]`
+🔄*!tophoto* `[reply]`
 _Convert text to photo_
 
-*!weather* `[city]`
+🌤*!weather* `[city]`
 _Get weather_
 
-_You can use_ *[!/#]* _at the beginning of commands._
+💢_You can use_ *[!/#]* _at the beginning of commands._
 
-*Good luck ;)*]]
+By @O_o_ERFAN_o_O]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 else
 
 helpfun = [[
-_راهنمای فان ربات بیوند:_
+_راهنمای فان:_
 
-*!time*
+🕑*!time*
 _دریافت ساعت به صورت استیکر_
 
-*!short* `[link]`
+🌐*!short* `[link]`
 _کوتاه کننده لینک_
 
-*!voice* `[text]`
+📢*!voice* `[text]`
 _تبدیل متن به صدا_
 
-*!tr* `[lang]` `[word]`
+🔀*!tr* `[lang]` `[word]`
 _ترجمه متن فارسی به انگلیسی وبرعکس_
-_مثال:_
+🔸_مثال:_
 _!tr en سلام_
 
-*!sticker* `[word]`
+🗼*!sticker* `[word]`
 _تبدیل متن به استیکر_
 
-*!photo* `[word]`
+🌄*!photo* `[word]`
 _تبدیل متن به عکس_
 
-*!azan* `[city]`
+🕌*!azan* `[city]`
 _دریافت اذان_
 
-*!calc* `[number]`
+🔢*!calc* `[number]`
 _ماشین حساب_
 
-*!praytime* `[city]`
+🕋*!praytime* `[city]`
 _اعلام ساعات شرعی_
 
-*!tosticker* `[reply]`
+🔄*!tosticker* `[reply]`
 _تبدیل عکس به استیکر_
 
-*!tophoto* `[reply]`
+🔄*!tophoto* `[reply]`
 _تبدیل استیکر‌به عکس_
 
-*!weather* `[city]`
+🌤*!weather* `[city]`
 _دریافت اب وهوا_
 
-*شما میتوانید از [!/#] در اول دستورات برای اجرای آنها بهره بگیرید*
-
-موفق باشید ;)]]
+*شما میتوانید از [!/#] در اول دستورات برای اجرای آنها بهره بگیرید*💢
+ توسط: @O_o_ERFAN_o_O]]
 tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 end
 
